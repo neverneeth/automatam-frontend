@@ -13,7 +13,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="bg-black-400  bg-opacity-70 backdrop-blur-sm text-white border-b border-gray-700">
+    <nav className="bg-(--background) backdrop-blur-sm text-white border-b border-gray-700">
       <div className="max-w-screen-xl mx-auto px-4 py-4 flex items-center justify-center">
         <button
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
